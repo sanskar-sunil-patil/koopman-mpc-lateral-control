@@ -1,0 +1,9 @@
+maneuver,Vx,controller,best_RMS_e_y_m
+lane_change,10.0,baseline_lqr,0.0001574530045449
+lane_change,15.0,baseline_lqr,0.0041885137954739
+lane_change,20.0,baseline_lqr,0.0128657391062368
+lane_change,25.0,baseline_lqr,0.0282923168911471
+slalom,10.0,baseline_lqr,0.0001521040297139
+slalom,15.0,baseline_lqr,0.0045427747059771
+slalom,20.0,baseline_lqr,0.0139464727139692
+slalom,25.0,baseline_lqr,0.0306453461383531

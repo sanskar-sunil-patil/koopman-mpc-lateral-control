@@ -1,0 +1,31 @@
+{
+  "timestamp_unix": 1775168034.40809,
+  "seed": 7,
+  "root_dir": "C:\\Users\\sansk\\OneDrive\\Documents\\GitHub\\koopman-mpc-lateral-control\\notebooks",
+  "results_dir": "C:\\Users\\sansk\\OneDrive\\Documents\\GitHub\\koopman-mpc-lateral-control\\notebooks\\results",
+  "cfg": {
+    "t0": 0.0,
+    "tf": 25.0,
+    "dt": 0.01,
+    "m": 1500.0,
+    "Iz": 3000.0,
+    "lf": 1.2,
+    "lr": 1.6,
+    "Caf": 80000.0,
+    "Car": 80000.0,
+    "Vx": 15.0,
+    "delta_max": 0.5,
+    "delta_rate_max": 0.8,
+    "mpc_horizon_s": 2.0,
+    "q_ey": 50.0,
+    "q_epsi": 50.0,
+    "q_vy": 10.0,
+    "q_r": 10.0,
+    "r_delta": 1.0,
+    "r_deltarate": 10.0,
+    "L": 2.8,
+    "N": 200
+  },
+  "artifacts": [],
+  "notes": "Auto-generated at notebook run start."
+}

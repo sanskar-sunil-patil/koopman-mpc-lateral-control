@@ -1,0 +1,5 @@
+method,type,best_role,one_step_prediction,multi_step_prediction,closed_loop_tracking,speed_robustness,mpc_friendly,interpretability,final_verdict
+Baseline LQR,classical controller,closed-loop control,N/A,N/A,excellent,good,not needed,high,best controller tested
+Koopman / EDMD,learned predictor + control model,MPC-oriented learned model,very good,moderate,excellent,poor,yes,moderate,"useful for convex MPC, but not best predictor"
+SINDy,sparse nonlinear predictor,prediction,excellent,excellent,not tested as controller,not yet closed-loop tested,not directly,high (sparse),best predictor tested
+Vx-aware Koopman,learned predictor + control model,attempted speed-aware MPC model,not final benchmarked,not final benchmarked,poor,poor,yes,moderate,did not improve results in current implementation
